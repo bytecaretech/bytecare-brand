@@ -1,0 +1,43 @@
+meta:
+  name:
+    full: byteCare UG (haftungsbeschränkt)
+    short: byteCare
+  link:
+    home: https://www.bytecare.tech
+    github: https://github.com/bytecaretech
+    linkedin: https://de.linkedin.com/company/bytecaretech
+
+logo:
+  medium: logo-medium.png
+
+color:
+  palette:
+    black: "#333333"
+    grey: "#F5F5F5"
+    deep-blue: "#20204C"
+    purple: "#6755D3"
+    soft-purple: "#9386EE"
+  background:
+    light: grey
+    dark: deep-blue
+  foreground:
+    light: black
+    dark: white
+  primary: purple
+  secondary: soft-purple
+
+typography:
+  fonts:
+    - family: Poppins
+      source: bunny
+    - family: Roboto
+      source: bunny
+    - family: JetBrains Mono
+      source: bunny
+  base: Roboto
+  headings:
+    family: Poppins
+    color: purple
+  monospace: JetBrains Mono
+  link:
+    color: purple
