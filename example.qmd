@@ -1,0 +1,27 @@
+---
+title: byteCare brand example
+format:
+  html: default
+  revealjs:
+    output-file: example-slides.html
+---
+
+## Typography
+
+Body text is set in Roboto, with *italic* and **bold** variants.
+Headings use Poppins. Here is [a link](https://www.bytecare.tech)
+and some inline code: `quarto add bytecaretech/bytecare-brand`.
+
+```python
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
+```
+
+## Logo
+
+{{< brand logo medium >}}
+
+## Colours
+
+Primary: [purple]{style="color: var(--brand-purple)"} ·
+Secondary: [soft-purple]{style="color: var(--brand-soft-purple)"}

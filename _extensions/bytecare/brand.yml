@@ -30,10 +30,20 @@ typography:
   fonts:
     - family: Poppins
       source: bunny
+      weight: [400, 500, 600, 700]
+      style: normal
     - family: Roboto
       source: bunny
+      weight: [400, 500, 700]
+      style: normal
+    - family: Roboto
+      source: bunny
+      weight: 400
+      style: italic
     - family: JetBrains Mono
       source: bunny
+      weight: [400, 500, 700]
+      style: normal
   base: Roboto
   headings:
     family: Poppins
