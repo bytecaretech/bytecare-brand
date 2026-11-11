@@ -1,0 +1,4 @@
+# A Quarto project is required for brand extensions to apply. This one only
+# exists to render example.qmd against the extension in _extensions/bytecare.
+project:
+  type: default
