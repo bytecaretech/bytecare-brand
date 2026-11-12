@@ -16,8 +16,9 @@ In the root of a Quarto project (Quarto 1.8 or later):
 quarto add bytecaretech/bytecare-brand
 ```
 
-This installs the extension into `_extensions/bytecare/`. Check that
-directory into version control. Every document in the project, including
+This installs the extension into `_extensions/bytecaretech/bytecare/`.
+Quarto puts extensions installed from GitHub under the owner's name. Check
+that directory into version control. Every document in the project, including
 HTML pages and reveal.js presentations, then uses the brand. The
 extension's brand takes precedence over a `_brand.yml` in the project.
 
