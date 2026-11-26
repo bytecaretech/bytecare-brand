@@ -17,6 +17,8 @@ color:
     deep-blue: "#20204C"
     purple: "#6755D3"
     soft-purple: "#9386EE"
+    faint-purple: "#ECE9FB"
+    violet: "#8A4FD9"
   background:
     light: grey
     dark: deep-blue

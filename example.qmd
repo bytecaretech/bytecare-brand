@@ -24,4 +24,6 @@ def greet(name: str) -> str:
 ## Colours
 
 Primary: [purple]{style="color: var(--brand-purple)"} ·
-Secondary: [soft-purple]{style="color: var(--brand-soft-purple)"}
+Secondary: [soft-purple]{style="color: var(--brand-soft-purple)"} ·
+Accent: [violet]{style="color: var(--brand-violet)"} ·
+Tint: [faint-purple]{style="background: var(--brand-faint-purple)"}
