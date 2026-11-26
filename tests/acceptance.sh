@@ -77,6 +77,8 @@ expect_css example "headings use Poppins"        'h1,[^{]*\{[^}]*font-family:[[:
 expect_css example "primary colour is purple"    '--bs-primary:[[:space:]]*#6755D3'
 expect_css example "links are purple"            '--bs-link-color:[[:space:]]*#6755D3'
 expect_css example "light background is grey"    '--bs-body-bg:[[:space:]]*#F5F5F5'
+expect_css example "palette has faint-purple"    '--brand-faint-purple:[[:space:]]*#ECE9FB'
+expect_css example "palette has violet"          '--brand-violet:[[:space:]]*#8A4FD9'
 
 # reveal.js presentation: theme variables.
 expect_css example-slides "body font is Roboto"      '--r-main-font:[[:space:]]*Roboto'
@@ -84,6 +86,8 @@ expect_css example-slides "headings use Poppins"     '--r-heading-font:[[:space:
 expect_css example-slides "headings are purple"      '--r-heading-color:[[:space:]]*#6755D3'
 expect_css example-slides "links are purple"         '--r-link-color:[[:space:]]*#6755D3'
 expect_css example-slides "background is grey"       '--r-background-color:[[:space:]]*#F5F5F5'
+expect_css example-slides "palette has faint-purple" '--brand-faint-purple:[[:space:]]*#ECE9FB'
+expect_css example-slides "palette has violet"       '--brand-violet:[[:space:]]*#8A4FD9'
 
 echo
 if [[ $failures -eq 0 ]]; then
